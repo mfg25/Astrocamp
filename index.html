@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>AstroCamp</title>
+  </head>
+  <body>
+    <header id="header">
+      <img src="logo.png" id="header-img" />
+      <nav class="nav-links">
+        <a href="#description">About us</a>
+        <a href="#plans-container">Our plans</a>
+        <a href="#forms-container">Get started</a>
+      </nav>
+    </header>
+    <main>
+      <div id="video-container">
+        <video src="background.mp4" autoplay muted repeat loop></video>
+        <h1 id="introduction">
+          Take free online classes and courses in astronomy to build your
+          science skills. Explore astronomy, astrophysics and other popular
+          subjects with courses from top universities and institutions around
+          the world.
+        </h1>
+      </div>
+      <div id="about-container">
+        <h2 id="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus nec
+          feugiat in fermentum posuere urna nec. Consequat mauris nunc congue
+          nisi. Porttitor leo a diam sollicitudin tempor id eu nisl nunc.
+        </h2>
+      </div>
+      <div id="videoclass-container">
+        <iframe
+          id="iframe"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/H6Er2TN5EKs"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div id="plans-container">
+        <div class="plan-box">
+          <div class="box-title"><p class="plan-title">Basic</p></div>
+          <div id="perks">
+            <ul id="perks-ul">
+              <li id="price">FREE</li>
+              <li>Lorem ipsum</li>
+
+              <li>Lorem ipsum dolor.</li>
+
+              <li>Lorem ipsum</li>
+            </ul>
+          </div>
+        </div>
+        <div class="plan-box">
+          <div class="box-title"><p class="plan-title">Plus</p></div>
+          <div id="perks">
+            <ul id="perks-ul">
+              <li id="price">$ 10</li>
+              <li>Lorem ipsum dolor sit.</li>
+
+              <li>Lorem ipsum dolor.</li>
+
+              <li>Lorem ipsum dolor sit amet.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="plan-box">
+          <div class="box-title"><p class="plan-title">Advanced</p></div>
+          <div id="perks">
+            <ul id="perks-ul">
+              <li id="price">$ 20</li>
+              <li>Lorem ipsum dolor sit amet</li>
+
+              <li>Lorem ipsum dolor.</li>
+
+              <li>Lorem ipsum.</li>
+
+              <li>Lorem ipsum dolor.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="forms-container">
+        <div id="forms-box">
+          <h1 id="getstarted">Get started</h1>
+          <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <div class="input-container">
+              <p class="form-text">Email</p>
+              <input
+                type="email"
+                required
+                placeholder="Enter your email"
+                class="form-input"
+              />
+            </div>
+            <div class="input-container">
+              <p class="form-text">Select a subscription plan</p>
+              <select name="" class="form-input">
+                <option value="basic">Basic</option>
+                <option value="Plus">Plus</option>
+                <option value="Advanced">Advanced</option>
+              </select>
+            </div>
+            <div class="input-container">
+              <button type="submit" id="submit-button">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
